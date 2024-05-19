@@ -13,8 +13,9 @@ class Cours():
         self.age = age_requis_cours
 
 class Professeur():
-    def __init__(self,nom_professeur,cours_professeur,niveau_cours_professeur):
+    def __init__(self,nom_professeur,cours_professeur,niveau_cours_professeur,sexe_professeur):
         self.nom = nom_professeur
         self.cours = cours_professeur
         self.niveau = niveau_cours_professeur
+        self.sexe = sexe_professeur
         
